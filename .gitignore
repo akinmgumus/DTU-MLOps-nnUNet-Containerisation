@@ -1,0 +1,28 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# nnU-Net data and results
+nnUNet_raw/
+nnUNet_preprocessed/
+nnUNet_results/
+data/
+images_raw/
+input/
+visualizations/
+
+# Model weights
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
